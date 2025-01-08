@@ -32,7 +32,6 @@ emorial
 │   │   └── index.html
 │   ├── package.json
 │   ├── tsconfig.json
-│   └── README.md
 ├── terraform
 │   ├── main.tf
 │   ├── variables.tf
@@ -64,9 +63,9 @@ emorial
    Ensure your AWS credentials are configured properly to allow deployment of the Lambda function and access to DynamoDB.
 
 4. **Deploy the Lambda function and Alexa skill:**
-   Use the Serverless Framework to deploy:
+   terraform will help us to deploy:
    ```
-   serverless deploy
+   terraform apply deploy (choose dev.tfvars or prod.tfvars)
    ```
 
 ## Usage
