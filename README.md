@@ -1,11 +1,16 @@
 # Alexa Skill and Admin Web Application
 
-This project is an Alexa skill that provides information about deceased individuals in two modes: Reader mode and Admin mode. 
+Este proyecto es una habilidad de Alexa que proporciona información sobre los seres queridos ya no estan con nosotros.
+
+Esta tiene un modo lector y un modo administrador.
+
+![In Memoriam](in_memoriam.jpg)
+
 
 ## Project Structure
 
 ```
-emorial
+in-memoriam
 ├── alexa
 │   ├── index.ts
 │   ├── intents
@@ -79,3 +84,8 @@ emorial
 ## License
 
 This project is licensed under the MIT License.
+
+## Contact me 
+
+- **Alejandro Mercado** 
+https://www.linkedin.com/in/alexmarket/
