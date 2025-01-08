@@ -1,0 +1,73 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# AWS Lambda deployment package
+terraform/lambda/lambda-deployment-package.zip
+
+# TypeScript
+*.tsbuildinfo
+
+# React
+/web/build/
+/web/.cache/
+/web/.next/
+/web/out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS
+.DS_Store
+
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/

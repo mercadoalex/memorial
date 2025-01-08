@@ -1,0 +1,24 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "deceased information",
+      "intents": [
+        {
+          "name": "ReaderIntent",
+          "slots": [
+            {
+              "name": "PersonName",
+              "type": "AMAZON.Person"
+            }
+          ],
+          "samples": [
+            "tell me about {PersonName}",
+            "who was {PersonName}",
+            "give me information about {PersonName}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
